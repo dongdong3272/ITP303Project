@@ -1,0 +1,34 @@
+.changeColor {
+    --bs-bg-opacity: 1;
+    background-color: #990000 !important;
+}
+
+.navbar-title {
+    font-family: 'Libre Caslon Text', serif;
+    color: #fff !important;
+    font-size: 30px !important;
+    margin-left: 10px !important;
+}
+
+.nav-link {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 13.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff !important;
+}
+
+/* -- Media queries to add CSS for bigger screens -- */
+/* iPad vertical is 768px. Media query set for screens >=768px */
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 17px;
+    }
+}
+
+/* Small desktop starts at 992px. Media query set for screens >=992px */
+@media (min-width: 992px) {
+    .nav-link {
+        font-size: 20px;
+    }
+}
